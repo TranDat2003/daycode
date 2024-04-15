@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa thông tin đơn hàng"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="số lượng đơn hàng"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:id="@+id/editTextText20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView164"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Tên khách hàng" />
+
+    <EditText
+        android:id="@+id/editTextText31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name" />
+
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="số điện thoại "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <EditText
+        android:id="@+id/editTextText22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="584dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="651dp" />
+</LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

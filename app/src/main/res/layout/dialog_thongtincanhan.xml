@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sủa thông tin cá nhân"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã người dùng"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:enabled="false"
+        android:text="Name"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên người dùng"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <EditText
+        android:id="@+id/editTextText25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <EditText
+        android:id="@+id/editTextText26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textView159"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <EditText
+        android:id="@+id/editTextText27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Ngày sinh" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="41dp"
+        android:layout_marginEnd="10dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hủy"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="583dp" />
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

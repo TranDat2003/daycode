@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/donhang"
+        android:title="Lịch sử mua hàng"
+        android:icon="@drawable/onlineshopping"/>
+    <item android:id="@+id/trangchu"
+        android:title="Trang chủ"
+        android:icon="@drawable/house"/>
+
+    <item android:title="Đăng xuất"
+        android:icon="@drawable/back"
+        android:id="@+id/dangxuat"/>
+    <item android:title="Cài đặt cá nhân"
+        android:icon="@drawable/user"
+        android:id="@+id/canhan"/>
+    <item android:title="Giỏ hàng"
+        android:icon="@drawable/shopping"
+        android:id="@+id/giohang"/>
+
+</menu>

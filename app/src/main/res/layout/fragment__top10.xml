@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_Top10">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="10"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="10dp"
+            android:text="STT" />
+
+        <TextView
+            android:id="@+id/textView126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm"
+            android:layout_weight="5"
+            android:layout_marginStart="30dp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="43dp" />
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng đã bán"
+            android:layout_weight="3"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+    </LinearLayout>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_marginTop="25dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/top"/>
+
+</FrameLayout>

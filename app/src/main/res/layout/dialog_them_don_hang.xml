@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐẶT HÀNG"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập số điện thoại"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Tên người nhận"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+        android:id="@+id/editTextText17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ giao hàng"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/editTextText18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phương thức giao hàng"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="366dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="562dp" >
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ship COD"
+            android:textSize="15dp"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteX="185dp"
+            tools:layout_editor_absoluteY="542dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trực tuyến"
+            android:layout_marginStart="20dp"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="578dp" />
+    </RadioGroup>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Đặt hàng" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy" />
+</LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

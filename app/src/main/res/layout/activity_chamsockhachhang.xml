@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Chamsockhachhang">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#673AB7"
+
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/textView174"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chăm sóc khách hàng"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="-Cảm ơn bạn đã tin dùng sản phẩm của fruit perfume nếu như trong qúa trình trải nghiệm khiến bạn không hài lòng đừng ngần ngại góp ý với chúng tôi."
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SĐT:0934581926" />
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:haonaph45181@fpt.edu.vn" />
+</androidx.appcompat.widget.LinearLayoutCompat>

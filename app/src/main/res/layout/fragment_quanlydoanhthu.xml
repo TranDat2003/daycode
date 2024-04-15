@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_quanlydoanhthu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Thống kê doanh thu" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:layout_marginStart="30dp"
+        android:text="Từ ngày" />
+
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:inputType="text"
+        android:text="" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="110dp"
+        android:background="@color/button"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Đến ngày" />
+
+
+    <EditText
+        android:id="@+id/editTextText23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:inputType="text"
+        android:text="" />
+
+</LinearLayout>
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống kê"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/button"/>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#673AB7"
+    android:gravity="center"
+    android:layout_gravity="bottom">
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Doanh thu: "
+        android:gravity="center"/>
+</RelativeLayout>
+
+</FrameLayout>

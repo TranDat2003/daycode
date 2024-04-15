@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm sản phẩm"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="535dp" />
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng sản phẩm"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="685dp" />
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đuòng dẫn ảnh URL"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextText32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="278dp" />
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

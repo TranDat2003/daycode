@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/sanpham"
+          android:title="Quản lý sản phẩm"
+          android:icon="@drawable/drink"/>
+    <item android:id="@+id/loaisp"
+          android:title="quản lý loại sản phẩm"
+          android:icon="@drawable/harvest"/>
+    <item android:id="@+id/donhang"
+          android:title="Lịch sử mua hàng"
+          android:icon="@drawable/onlineshopping"/>
+    <item android:id="@+id/trangchu"
+          android:title="Trang chủ"
+          android:icon="@drawable/house"/>
+    <item android:id="@+id/nguoidung"
+          android:title="Quản lý người dùng"
+          android:icon="@drawable/group"/>
+    <item android:title="Doanh thu"
+          android:id="@+id/doanhth"
+          android:icon="@drawable/doanhthu"/>
+    <item android:id="@+id/lichsu"
+        android:title="lịch sử mua hàng"
+        android:icon="@drawable/management"/>
+    <item android:title="Đăng xuất"
+          android:icon="@drawable/back"
+          android:id="@+id/dangxuat"/>
+    <item android:title="Cài đặt cá nhân"
+        android:icon="@drawable/idcard"
+        android:id="@+id/canhan"/>
+    <item android:title="Giỏ hàng"
+        android:icon="@drawable/shopping"
+        android:id="@+id/giohang"/>
+    <item android:id="@+id/donhangadmin"
+        android:title="Quản lý đơn hàng(admin)"
+        android:icon="@drawable/onlineshopping"/>
+    <item android:id="@+id/topbanchay"
+        android:title="Top 10 sản phẩm bán chạy nhất"
+        android:icon="@drawable/top"/>
+    <item android:id="@+id/doimk"
+        android:title="Đổi mật khẩu"
+        android:icon="@drawable/key"/>
+
+
+
+
+</menu>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:background="#673AB7"
+       android:layout_height="60dp">
+
+      <ImageView
+          android:layout_width="60dp"
+          android:layout_height="100dp"
+          android:id="@+id/img"
+          android:layout_marginRight="20dp"
+         android:src="@drawable/baseline_arrow_back_24"/>
+
+      <TextView
+          android:id="@+id/textView110"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Thông tin chi tiết đơn hàng"
+          android:gravity="center"
+          android:textColor="#FFFFFF"
+          android:layout_marginTop="15dp"
+          android:layout_marginStart="100dp"
+          android:textSize="20dp"/>
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:background="#009688">
+      <TextView
+          android:id="@+id/a"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Đơn hàng đã hoàn thành"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="10dp"
+          android:textSize="20dp"
+          android:textColor="#FFFFFF"/>
+      <TextView
+          android:id="@+id/s"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Nếu hàng có vấn đề hãy liên hệ với chúng tôi \n để được yêu cầu hoàn trả"
+          android:layout_below="@+id/a"
+          android:layout_marginStart="10dp"
+          android:textSize="15dp"
+          android:textColor="#FFFFFF"/>
+
+      <ImageView
+          android:id="@+id/imageView20"
+          android:layout_width="50dp"
+          android:layout_alignRight="@+id/s"
+          android:layout_marginRight="-68dp"
+          android:layout_marginTop="10dp"
+          android:layout_height="50dp"
+          app:srcCompat="@drawable/delivered" />
+
+   </RelativeLayout>
+
+   <ImageView
+       android:id="@+id/imageView21"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       app:srcCompat="@drawable/z5"
+       tools:layout_editor_absoluteX="1dp"
+       tools:layout_editor_absoluteY="570dp" />
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="120dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Địa chỉ nhận hàng"
+          android:layout_marginTop="5dp"
+          android:layout_alignLeft="@id/imageView22"
+          android:layout_marginStart="35dp"
+          android:textSize="20dp"
+        />
+
+      <ImageView
+          android:id="@+id/imageView22"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:srcCompat="@drawable/locationn" />
+
+      <TextView
+          android:id="@+id/textView111"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_below="@id/imageView22"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="20dp"
+          android:textSize="15dp"
+          tools:layout_editor_absoluteX="101dp"
+          tools:layout_editor_absoluteY="207dp" />
+
+      <TextView
+          android:id="@+id/textView112"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_below="@id/textView111"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="85dp"
+          tools:layout_editor_absoluteY="283dp" />
+
+      <TextView
+          android:id="@+id/textView113"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_marginTop="5dp"
+          android:layout_below="@id/textView112"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="186dp"
+          tools:layout_editor_absoluteY="330dp" />
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+
+      <ImageView
+          android:id="@+id/imageView23"
+          android:layout_width="80dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="20dp"
+          android:layout_height="80dp"
+          app:srcCompat="@drawable/adduser" />
+
+      <TextView
+          android:id="@+id/textView114"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:layout_marginStart="110dp"
+          tools:layout_editor_absoluteX="83dp"
+          tools:layout_editor_absoluteY="411dp" />
+
+      <TextView
+          android:id="@+id/textView115"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_below="@id/textView114"
+          android:text="TextView"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="110dp"
+          tools:layout_editor_absoluteX="87dp"
+          tools:layout_editor_absoluteY="469dp" />
+
+      <TextView
+          android:id="@+id/textView116"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_below="@id/textView115"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="110dp"
+          tools:layout_editor_absoluteX="141dp"
+          tools:layout_editor_absoluteY="514dp" />
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="70dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Phương thức thanh toán"
+          android:textStyle="bold"
+          android:id="@+id/a1"
+          android:layout_marginStart="20dp"
+          android:textSize="20dp"/>
+      <TextView
+          android:id="@+id/textView117"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:textSize="17dp"
+          android:layout_below="@+id/a1"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="105dp"
+          tools:layout_editor_absoluteY="559dp" />
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="130dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_marginStart="20dp"
+          android:text="Mã đơn hàng"/>
+
+      <TextView
+          android:id="@+id/textView185"
+          android:layout_width="wrap_content"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="150dp"
+          android:text="TextView" />
+
+      <TextView
+          android:id="@+id/textView119"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_marginTop="10dp"
+          android:textSize="18dp"
+          android:layout_below="@id/textView185"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="177dp"
+          tools:layout_editor_absoluteY="633dp" />
+
+      <TextView
+          android:id="@+id/textView118"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_marginTop="10dp"
+          android:layout_below="@id/textView119"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="168dp"
+          tools:layout_editor_absoluteY="592dp" />
+
+      <TextView
+          android:id="@+id/textView120"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView"
+          android:layout_marginTop="10dp"
+          android:layout_below="@id/textView118"
+          android:layout_marginStart="20dp"
+          tools:layout_editor_absoluteX="202dp"
+          tools:layout_editor_absoluteY="671dp" />
+   </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

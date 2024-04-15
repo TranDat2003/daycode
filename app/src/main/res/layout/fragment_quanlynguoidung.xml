@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_quanlynguoidung">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:layout_height="60dp">
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="350dp"
+            android:iconifiedByDefault="false"
+            android:background="@drawable/search"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/searchc"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:id="@+id/recykhachhang"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adduse"
+        android:src="@drawable/adduser"
+        android:layout_gravity="bottom|end"/>
+
+</FrameLayout>
